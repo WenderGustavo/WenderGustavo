@@ -1,7 +1,7 @@
 ### Olá, sou o WenderGustavo! 👋
 
 - 🎈 Sou estudande do curso de ADS!
-- 🕑 Estou aprendendo Python!
+- 🕑 Estou aprendendo Java!
 - 💨 Pretendo me especializar em 2 linguagens ou mais!
 - 🗨 Estou aberto a sugestões!
 
