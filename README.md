@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Desenvolvedor Java com foco em back-end, utilizando Spring Boot. Conhecimento em bancos de dados como MySQL e PostgreSQL. Engajado no uso de containers com Docker e soluções na nuvem utilizando AWS. Sempre buscando aprender e aplicar boas práticas de desenvolvimento e Clean Architecture em meus projetos.</p>
+<p align="left">Desenvolvedor Java com foco em back-end, utilizando Spring Boot. Conhecimento em bancos de dados como MySQL e PostgreSQL. Engajado no uso de containers com Docker. Sempre buscando aprender e aplicar boas práticas de desenvolvimento e Clean Architecture em meus projetos.</p>
 
 ###
 
