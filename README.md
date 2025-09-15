@@ -2,7 +2,9 @@
 
 ###
 
-<p align="left">Desenvolvedor Java com foco em back-end, utilizando Spring Boot. Conhecimento em bancos de dados como MySQL e PostgreSQL. Engajado no uso de containers com Docker. Sempre buscando aprender e aplicar boas práticas de desenvolvimento e Clean Architecture em meus projetos.</p>
+<p align="left">Desenvolvedor Backend com foco em Java, Spring Boot, Spring Security e JPA/Hibernate, especializado em APIs RESTful, POO e integração com bancos de dados relacionais como MySQL e PostgreSQL. Experiência em criar soluções escaláveis e bem estruturadas, aplicando Clean Code, princípios SOLID e boas práticas de arquitetura.
+
+Utilizo Docker para ambientes padronizados e deploy de aplicações, e atuo com design de sistemas, microserviços e mensageria, combinando teoria e prática em projetos pessoais e contribuições em repositórios.</p>
 
 ###
 
