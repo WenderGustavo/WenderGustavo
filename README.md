@@ -25,9 +25,8 @@ Utilizo Docker para ambientes padronizados e deploy de aplicações, e atuo com 
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=WenderGustavo&show_icons=true&theme=nord&hide_border=false" height="150" alt="stats graph" />
+  <img src="https://github-readme-stats.vercel.app/api?username=WenderGustavo&show_icons=true&include_all_commits=true&count_private=true&theme=nord&hide_border=false" height="150" alt="stats graph" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=WenderGustavo&layout=compact&theme=nord&hide_border=false" height="150" alt="languages graph" />
-  <img src="https://streak-stats.demolab.com?user=WenderGustavo&theme=nord&hide_border=false" height="150" alt="streak graph" />
 </div>
 
 ###
