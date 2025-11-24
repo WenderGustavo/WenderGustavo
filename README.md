@@ -24,16 +24,9 @@ Utilizo Docker para ambientes padronizados e deploy de aplicações, e atuo com 
 
 ###
 
-<!-- Ordenar por commits recentes -->
-<img src="https://github-readme-stats.vercel.app/api?username=WenderGustavo&show_icons=true&theme=nord&include_all_commits=true" height="150" />
-
-<!-- Focar nas linguagens principais -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=WenderGustavo&layout=compact&theme=nord&hide=html,css,scss" height="150" />
-
-<!-- Customizar a ordem dos cards -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=WenderGustavo&layout=compact&theme=nord" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api?username=WenderGustavo&show_icons=true&theme=nord" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=WenderGustavo&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=nord&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=WenderGustavo&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=nord&hide_border=false&order=2" height="150" alt="languages graph"  />
 </div>
 
 ###
@@ -41,3 +34,5 @@ Utilizo Docker para ambientes padronizados e deploy de aplicações, e atuo com 
 <br clear="both">
 
 ###
+
+o stats esta quebrado
