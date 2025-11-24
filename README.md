@@ -33,4 +33,4 @@ Utilizo Docker para ambientes padronizados e deploy de aplicações, e atuo com 
 
 <br clear="both">
 
-###
+<img src="https://raw.githubusercontent.com/WenderGustavo/WenderGustavo/output/snake.svg" alt="Snake animation" />
