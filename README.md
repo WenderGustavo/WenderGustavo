@@ -34,5 +34,3 @@ Utilizo Docker para ambientes padronizados e deploy de aplicações, e atuo com 
 <br clear="both">
 
 ###
-
-o stats esta quebrado
