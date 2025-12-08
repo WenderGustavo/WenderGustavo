@@ -36,16 +36,14 @@ Priorizo **Clean Code** e **SOLID** para garantir manutenibilidade. Utilizo **Do
 
 ---
 
-### 📊 Estatísticas do GitHub
+### 📊 Estatísticas e Commits
 
 <div align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=WenderGustavo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=WenderGustavo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
   </a>
+  
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WenderGustavo&layout=compact&langs_count=7&theme=tokyonight"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WenderGustavo&layout=compact&langs_count=7&theme=tokyonight&hide_border=true"/>
   </a>
 </div>
-
-<br>
-<img src="https://github.com/WenderGustavo/WenderGustavo/blob/output/github-contribution-grid-snake.svg" alt="snake animation" width="100%" />
