@@ -1,36 +1,51 @@
-<h2 align="left">About me</h2>
+<div align="center">
+  <h2>Olá! Eu sou o Wender 👋</h2>
+  
+  <a href="https://www.linkedin.com/in/wendergustavo">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="mailto:nem8723@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
+  </a>
+</div>
 
-###
+<br>
 
-<p align="left">Desenvolvedor Backend com foco em Java, Spring Boot, Spring Security e JPA/Hibernate, especializado em APIs RESTful, POO e integração com bancos de dados relacionais como MySQL e PostgreSQL. Experiência em criar soluções escaláveis e bem estruturadas, aplicando Clean Code, princípios SOLID e boas práticas de arquitetura.
+### 💻 Sobre mim
 
-Utilizo Docker para ambientes padronizados e deploy de aplicações, e atuo com design de sistemas, microserviços e mensageria, combinando teoria e prática em projetos pessoais e contribuições em repositórios.</p>
+Sou um **Desenvolvedor Backend** focado em construir sistemas robustos e escaláveis com o ecossistema **Java**. Minha paixão é transformar requisitos complexos em arquiteturas limpas e eficientes.
 
-###
+🛠 **O que eu faço:**
+* Desenvolvimento de APIs RESTful de alta performance com **Spring Boot**.
+* Implementação de segurança avançada com **Spring Security & JWT**.
+* Modelagem e otimização de bancos de dados (**PostgreSQL/MySQL**).
+* Arquitetura de microsserviços, mensageria e sistemas distribuídos.
 
-<h2 align="left">Techs</h2>
+🚀 **Minha abordagem:**
+Priorizo **Clean Code** e **SOLID** para garantir manutenibilidade. Utilizo **Docker** para padronização de ambientes e tenho vivência com CI/CD e cloud.
+
+---
+
+### 🛠 Tech Stack
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="30" alt="java logo" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="30" alt="spring logo" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="30" alt="mysql logo" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="30" alt="postgresql logo" />
-  <img src="https://skillicons.dev/icons?i=docker" width="30" alt="docker logo" />
+  <img src="https://skillicons.dev/icons?i=java,spring,hibernate,maven,postgres,mysql,mongodb,redis&theme=light" alt="Backend Skills" />
+  <br><br>
+  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,aws,rabbitmq,grafana,prometheus&theme=light" alt="DevOps Skills" />
 </div>
 
-###
+---
 
-<h2 align="left">Stats</h2>
-
-###
+### 📊 Estatísticas do GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=WenderGustavo&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=nord&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=WenderGustavo&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=nord&hide_border=false&order=2" height="150" alt="languages graph"  />
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=WenderGustavo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+  </a>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WenderGustavo&layout=compact&langs_count=7&theme=tokyonight"/>
+  </a>
 </div>
 
-###
-
-<br clear="both">
-
-###
+<br>
+<img src="https://github.com/WenderGustavo/WenderGustavo/blob/output/github-contribution-grid-snake.svg" alt="snake animation" width="100%" />
