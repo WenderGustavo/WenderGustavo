@@ -48,6 +48,8 @@ Priorizo **Clean Code** e **SOLID** para garantir manutenibilidade. Utilizo **Do
   </a>
 </div>
 
+<br>
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WenderGustavo/WenderGustavo/output/github-contribution-grid-snake-dark.svg">
