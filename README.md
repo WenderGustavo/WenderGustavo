@@ -40,7 +40,7 @@ Priorizo **Clean Code** e **SOLID** para garantir manutenibilidade. Utilizo **Do
 
 <div align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=WenderGustavo&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=WenderGustavo&show_icons=true&theme=tokyonight&include_all_commits=true&hide_border=true"/>
   </a>
   
   <a href="https://github.com/anuraghazra/github-readme-stats">
