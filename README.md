@@ -49,5 +49,5 @@ Priorizo **Clean Code** e **SOLID** para garantir manutenibilidade. Utilizo **Do
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/WenderGustavo/WenderGustavo/output/github-contribution-grid-snake-green.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/WenderGustavo/WenderGustavo/output/github-contribution-grid-snake.svg?v=1" alt="snake animation" />
 </div>
