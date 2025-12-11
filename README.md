@@ -47,3 +47,7 @@ Priorizo **Clean Code** e **SOLID** para garantir manutenibilidade. Utilizo **Do
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WenderGustavo&layout=compact&langs_count=7&theme=tokyonight&hide_border=true"/>
   </a>
 </div>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/WenderGustavo/WenderGustavo/output/github-contribution-grid-snake-green.svg" alt="snake animation" />
+</div>
