@@ -39,9 +39,9 @@ Priorizo **Clean Code** e **SOLID** para garantir manutenibilidade. Utilizo **Do
 ### 📊 Estatísticas e Commits
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/WenderGustavo/WenderGustavo/master/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" />
+  <img src="https://raw.githubusercontent.com/WenderGustavo/WenderGustavo/main/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" />
   
-  <img src="https://raw.githubusercontent.com/WenderGustavo/WenderGustavo/master/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/WenderGustavo/WenderGustavo/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Top Languages" />
 </div>
 
 <br>
