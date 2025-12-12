@@ -39,13 +39,9 @@ Priorizo **Clean Code** e **SOLID** para garantir manutenibilidade. Utilizo **Do
 ### 📊 Estatísticas e Commits
 
 <div align="center">
-  <a href="https://github.com/denvercoder1/github-readme-streak-stats">
-    <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=WenderGustavo&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" />
-  </a>
+  <img src="https://raw.githubusercontent.com/WenderGustavo/WenderGustavo/master/profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" />
   
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WenderGustavo&layout=compact&langs_count=7&theme=tokyonight&hide_border=true&v=1"/>
-  </a>
+  <img src="https://raw.githubusercontent.com/WenderGustavo/WenderGustavo/master/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Top Languages" />
 </div>
 
 <br>
