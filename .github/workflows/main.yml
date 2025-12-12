@@ -1,27 +1,25 @@
-name: generate animation
+name: generate animation and stats
 
 on:
-  # Executa automaticamente a cada 24 horas
   schedule:
-    - cron: "0 */24 * * *" 
-  
-  # Permite rodar manualmente na aba Actions
-  workflow_dispatch:
-  
-  # Roda a cada push na branch master
+    - cron: "0 */24 * * *" # Roda todo dia
+  workflow_dispatch: # Permite rodar manualmente
   push:
     branches:
     - master
-    
+
 jobs:
   generate:
     permissions: 
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     
     steps:
-      # Gera o jogo da cobrinha a partir do gráfico de contribuições
+      # 1. Faz o checkout do código (Necessário para salvar os cards)
+      - uses: actions/checkout@v3
+
+      # 2. Gera a Cobrinha (Snake)
       - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
@@ -29,12 +27,21 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=#00c647
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#00c647
-          
-      # Envia os arquivos gerados para a branch de saída (output)
-      - name: push github-contribution-grid-snake.svg to the output branch
+
+      # 3. Empurra a Cobrinha para a branch 'output'
+      - name: push snake to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 4. Gera os Cards de Estatísticas (Stats)
+      # Isso vai criar uma pasta 'profile-summary-card-output' no seu código
+      - name: Generate GitHub Profile Summary Cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
