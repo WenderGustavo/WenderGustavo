@@ -1,55 +1,95 @@
+# 💰 API de Controle de Gastos Pessoais
+
 <div align="center">
-  <h2>Olá! Eu sou o Wender 👋</h2>
-  
-  <a href="https://www.linkedin.com/in/wendergustavo">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="mailto:nem8723@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
-  </a>
+  <img src="https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java" alt="Java"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-3-green?style=for-the-badge&logo=springboot" alt="Spring Boot"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-16-blue?style=for-the-badge&logo=postgresql" alt="PostgreSQL"/>
+  <img src="https://img.shields.io/badge/Redis-Cache-red?style=for-the-badge&logo=redis" alt="Redis"/>
+  <img src="https://img.shields.io/badge/Docker-Compose-2496ED?style=for-the-badge&logo=docker" alt="Docker"/>
 </div>
 
 <br>
 
-### 💻 Sobre mim
+## 📋 Sobre o Projeto
 
-Sou um **Desenvolvedor Backend** focado em construir sistemas robustos e escaláveis com o ecossistema **Java**. Minha paixão é transformar requisitos complexos em arquiteturas limpas e eficientes.
+O **Gastos Pessoais API** é um serviço backend robusto e escalável desenvolvido para gerenciamento financeiro pessoal. O projeto vai além do CRUD básico, implementando práticas de arquitetura de software modernas, foco em performance e observabilidade.
 
-🛠 **O que eu faço:**
-* Desenvolvimento de APIs RESTful de alta performance com **Spring Boot**.
-* Implementação de segurança avançada com **Spring Security & JWT**.
-* Modelagem e otimização de bancos de dados (**PostgreSQL/MySQL**).
-* Arquitetura de microsserviços, mensageria e sistemas distribuídos.
-
-🚀 **Minha abordagem:**
-Priorizo **Clean Code** e **SOLID** para garantir manutenibilidade. Utilizo **Docker** para padronização de ambientes e tenho vivência com CI/CD e cloud.
+O objetivo principal foi criar uma API performática utilizando **Cache Distribuído (Redis)** para leituras rápidas, segurança com **JWT**, e monitoramento em tempo real com **Prometheus e Grafana**.
 
 ---
 
-### 🛠 Tech Stack
+## 🚀 Tecnologias e Arquitetura
 
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=java,spring,hibernate,maven,postgres,mysql,mongodb,redis&theme=light" alt="Backend Skills" />
-  <br><br>
-  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,aws,rabbitmq,grafana,prometheus&theme=light" alt="DevOps Skills" />
-</div>
+O projeto foi construído utilizando as seguintes tecnologias:
+
+* **Linguagem:** Java 17+
+* **Framework:** Spring Boot 3
+* **Banco de Dados:** PostgreSQL 16 (com Migrations via Flyway)
+* **Cache:** Redis (Implementação Cache-Aside e Serialização JSON Customizada)
+* **Segurança:** Spring Security + JWT (Stateless Authentication)
+* **Monitoramento:** Spring Actuator, Prometheus e Grafana
+* **Containerização:** Docker e Docker Compose
+* **Outros:** Lombok, MapStruct, Hibernate Validator
 
 ---
 
-### 📊 Estatísticas e Commits
+## ✨ Funcionalidades Principais
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/WenderGustavo/WenderGustavo/main/profile-summary-card-output/github_dark/0-profile-details.svg" alt="Profile Details" />
-  
-  <img src="https://raw.githubusercontent.com/WenderGustavo/WenderGustavo/main/profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Top Languages" />
-</div>
+* **Autenticação e Segurança:** Login, Cadastro e proteção de rotas via Token JWT.
+* **Gestão de Gastos:** CRUD completo com validações de negócio.
+* **Alta Performance:**
+    * Cache de leitura (`@Cacheable`) para listagens frequentes.
+    * Invalidação inteligente de cache (`@CacheEvict`) em atualizações.
+    * Serialização JSON customizada no Redis para suportar Java Records e Datas (Java 8 Time).
+* **Consultas Otimizadas:**
+    * Uso de **Projections (DTOs)** para leituras rápidas.
+    * **Índices de Banco de Dados** para filtros por data e usuário.
+* **Observabilidade:** Exposição de métricas para monitoramento de CPU, Memória e Connection Pool.
 
-<br>
+---
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WenderGustavo/WenderGustavo/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WenderGustavo/WenderGustavo/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/WenderGustavo/WenderGustavo/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
+## 🐳 Como Rodar (Via Docker)
+
+A maneira mais fácil de rodar a aplicação é utilizando o Docker Compose, que sobe o Banco, o Redis e a Aplicação automaticamente.
+
+### Pré-requisitos
+* Docker e Docker Compose instalados.
+
+### Passo a Passo
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/WenderGustavo/gastospessoais.git](https://github.com/WenderGustavo/gastospessoais.git)
+    cd gastospessoais
+    ```
+
+2.  **Configure as Variáveis de Ambiente:**
+    Crie um arquivo `.env` na raiz (ou altere o `docker-compose.yml` se preferir) com suas credenciais.
+    *(O projeto já possui configurações padrão para ambiente de desenvolvimento)*.
+
+3.  **Suba os containers:**
+    ```bash
+    docker-compose up -d --build
+    ```
+
+4.  **Acesse a Aplicação:**
+    * **API:** `http://localhost:8080`
+    * **Swagger UI (Doc):** `http://localhost:8080/swagger-ui.html` (Se configurado)
+    * **Métricas (Prometheus):** `http://localhost:8080/actuator/prometheus`
+
+---
+
+## 📂 Estrutura do Projeto
+
+O projeto segue uma arquitetura em camadas focada em separação de responsabilidades:
+
+```text
+src/main/java/io/github/wendergustavo/gastospessoais
+├── 📁 configuration  # Configurações (Cache, Security, Swagger, Jackson)
+├── 📁 controller     # Camada REST (Entrada de dados)
+├── 📁 service        # Regras de Negócio e Cache
+├── 📁 repository     # Acesso a Dados (Spring Data JPA)
+├── 📁 model          # Entidades JPA (Mapeamento DB)
+├── 📁 dto            # Objetos de Transferência (Request/Response/Projections)
+├── 📁 exception      # Tratamento global de erros (ControllerAdvice)
+└── 📁 security       # Filtros e Configuração JWT
