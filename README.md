@@ -24,7 +24,7 @@ O projeto foi construído utilizando as seguintes tecnologias:
 
 * **Linguagem:** Java 17+
 * **Framework:** Spring Boot 3
-* **Banco de Dados:** PostgreSQL 16 (com Migrations via Flyway)
+* **Banco de Dados:** PostgreSQL 15 (com Migrations via Flyway)
 * **Cache:** Redis (Implementação Cache-Aside e Serialização JSON Customizada)
 * **Segurança:** Spring Security + JWT (Stateless Authentication)
 * **Monitoramento:** Spring Actuator, Prometheus e Grafana
