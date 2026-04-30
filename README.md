@@ -36,17 +36,6 @@ Priorizo **Clean Code** e **SOLID** para garantir manutenibilidade. Utilizo **Do
 
 ### 🛠 Tech Stack
 
-
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=java,spring,hibernate,maven,postgres,mysql,mongodb,redis&theme=light" alt="Backend Skills" />
-  <br><br>
-  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,aws,rabbitmq,grafana,prometheus&theme=light" alt="DevOps Skills" />
-</div>
-
----
-
-### 📊 Estatísticas e Commits
-
 <br>
 <div align="center">
   <picture>
