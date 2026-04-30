@@ -36,11 +36,9 @@ Priorizo **Clean Code** e **SOLID** para garantir manutenibilidade. Utilizo **Do
 
 ### 🛠 Tech Stack
 
-<br>
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/WenderGustavo/WenderGustavo/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/WenderGustavo/WenderGustavo/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/WenderGustavo/WenderGustavo/output/github-contribution-grid-snake.svg">
-  </picture>
+
+<div align="left">
+  <img src="https://skillicons.dev/icons?i=java,spring,hibernate,maven,postgres,mysql,mongodb,redis&theme=light" alt="Backend Skills" />
+  <br><br>
+  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,aws,rabbitmq,grafana,prometheus&theme=light" alt="DevOps Skills" />
 </div>
